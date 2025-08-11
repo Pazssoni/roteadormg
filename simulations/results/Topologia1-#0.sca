@@ -1,0 +1,265 @@
+version 3
+run Topologia1-0-20250811-15:23:09-17248
+attr configname Topologia1
+attr datetime 20250811-15:23:09
+attr datetimef 20250811-152309
+attr experiment Topologia1
+attr inifile omnetpp.ini
+attr iterationvars ""
+attr iterationvarsd ""
+attr iterationvarsf ""
+attr measurement ""
+attr network Topologia1
+attr processid 17248
+attr repetition 0
+attr replication #0
+attr resultdir results
+attr runnumber 0
+attr seedset 0
+config network Topologia1
+config **.totalNodes 7
+config sim-time-limit 100000s
+config **.result-recording-modes all
+
+par Topologia1.node[0].g$o[0].channel typename "\"ned.DelayChannel\""
+par Topologia1.node[0].g$o[0].channel disabled false
+attr mutable ""
+par Topologia1.node[0].g$o[0].channel delay 0.01s
+attr mutable ""
+attr unit s
+scalar Topologia1.node[0].g$o[0].channel messagesDiscarded:count 1
+attr interpolationmode none
+attr recordingmode count
+attr source constant1(messageDiscarded)
+scalar Topologia1.node[0].g$o[0].channel messages:count 2
+attr interpolationmode none
+attr recordingmode count
+attr source constant1(messageSent)
+par Topologia1.node[1].g$o[0].channel typename "\"ned.DelayChannel\""
+par Topologia1.node[1].g$o[0].channel disabled false
+attr mutable ""
+par Topologia1.node[1].g$o[0].channel delay 0.01s
+attr mutable ""
+attr unit s
+scalar Topologia1.node[1].g$o[0].channel messagesDiscarded:count 1
+attr interpolationmode none
+attr recordingmode count
+attr source constant1(messageDiscarded)
+scalar Topologia1.node[1].g$o[0].channel messages:count 2
+attr interpolationmode none
+attr recordingmode count
+attr source constant1(messageSent)
+par Topologia1.node[0].g$o[1].channel typename "\"ned.DelayChannel\""
+par Topologia1.node[0].g$o[1].channel disabled false
+attr mutable ""
+par Topologia1.node[0].g$o[1].channel delay 0.002s
+attr mutable ""
+attr unit s
+scalar Topologia1.node[0].g$o[1].channel messagesDiscarded:count 1
+attr interpolationmode none
+attr recordingmode count
+attr source constant1(messageDiscarded)
+scalar Topologia1.node[0].g$o[1].channel messages:count 2
+attr interpolationmode none
+attr recordingmode count
+attr source constant1(messageSent)
+par Topologia1.node[2].g$o[0].channel typename "\"ned.DelayChannel\""
+par Topologia1.node[2].g$o[0].channel disabled false
+attr mutable ""
+par Topologia1.node[2].g$o[0].channel delay 0.002s
+attr mutable ""
+attr unit s
+scalar Topologia1.node[2].g$o[0].channel messagesDiscarded:count 1
+attr interpolationmode none
+attr recordingmode count
+attr source constant1(messageDiscarded)
+scalar Topologia1.node[2].g$o[0].channel messages:count 2
+attr interpolationmode none
+attr recordingmode count
+attr source constant1(messageSent)
+par Topologia1.node[1].g$o[1].channel typename "\"ned.DelayChannel\""
+par Topologia1.node[1].g$o[1].channel disabled false
+attr mutable ""
+par Topologia1.node[1].g$o[1].channel delay 0.004s
+attr mutable ""
+attr unit s
+scalar Topologia1.node[1].g$o[1].channel messagesDiscarded:count 1
+attr interpolationmode none
+attr recordingmode count
+attr source constant1(messageDiscarded)
+scalar Topologia1.node[1].g$o[1].channel messages:count 2
+attr interpolationmode none
+attr recordingmode count
+attr source constant1(messageSent)
+par Topologia1.node[2].g$o[1].channel typename "\"ned.DelayChannel\""
+par Topologia1.node[2].g$o[1].channel disabled false
+attr mutable ""
+par Topologia1.node[2].g$o[1].channel delay 0.004s
+attr mutable ""
+attr unit s
+scalar Topologia1.node[2].g$o[1].channel messagesDiscarded:count 1
+attr interpolationmode none
+attr recordingmode count
+attr source constant1(messageDiscarded)
+scalar Topologia1.node[2].g$o[1].channel messages:count 2
+attr interpolationmode none
+attr recordingmode count
+attr source constant1(messageSent)
+par Topologia1.node[1].g$o[2].channel typename "\"ned.DelayChannel\""
+par Topologia1.node[1].g$o[2].channel disabled false
+attr mutable ""
+par Topologia1.node[1].g$o[2].channel delay 0.008s
+attr mutable ""
+attr unit s
+scalar Topologia1.node[1].g$o[2].channel messagesDiscarded:count 1
+attr interpolationmode none
+attr recordingmode count
+attr source constant1(messageDiscarded)
+scalar Topologia1.node[1].g$o[2].channel messages:count 2
+attr interpolationmode none
+attr recordingmode count
+attr source constant1(messageSent)
+par Topologia1.node[3].g$o[0].channel typename "\"ned.DelayChannel\""
+par Topologia1.node[3].g$o[0].channel disabled false
+attr mutable ""
+par Topologia1.node[3].g$o[0].channel delay 0.008s
+attr mutable ""
+attr unit s
+scalar Topologia1.node[3].g$o[0].channel messagesDiscarded:count 1
+attr interpolationmode none
+attr recordingmode count
+attr source constant1(messageDiscarded)
+scalar Topologia1.node[3].g$o[0].channel messages:count 2
+attr interpolationmode none
+attr recordingmode count
+attr source constant1(messageSent)
+par Topologia1.node[2].g$o[2].channel typename "\"ned.DelayChannel\""
+par Topologia1.node[2].g$o[2].channel disabled false
+attr mutable ""
+par Topologia1.node[2].g$o[2].channel delay 0.003s
+attr mutable ""
+attr unit s
+scalar Topologia1.node[2].g$o[2].channel messagesDiscarded:count 1
+attr interpolationmode none
+attr recordingmode count
+attr source constant1(messageDiscarded)
+scalar Topologia1.node[2].g$o[2].channel messages:count 2
+attr interpolationmode none
+attr recordingmode count
+attr source constant1(messageSent)
+par Topologia1.node[4].g$o[0].channel typename "\"ned.DelayChannel\""
+par Topologia1.node[4].g$o[0].channel disabled false
+attr mutable ""
+par Topologia1.node[4].g$o[0].channel delay 0.003s
+attr mutable ""
+attr unit s
+scalar Topologia1.node[4].g$o[0].channel messagesDiscarded:count 1
+attr interpolationmode none
+attr recordingmode count
+attr source constant1(messageDiscarded)
+scalar Topologia1.node[4].g$o[0].channel messages:count 2
+attr interpolationmode none
+attr recordingmode count
+attr source constant1(messageSent)
+par Topologia1.node[3].g$o[1].channel typename "\"ned.DelayChannel\""
+par Topologia1.node[3].g$o[1].channel disabled false
+attr mutable ""
+par Topologia1.node[3].g$o[1].channel delay 0.005s
+attr mutable ""
+attr unit s
+scalar Topologia1.node[3].g$o[1].channel messagesDiscarded:count 1
+attr interpolationmode none
+attr recordingmode count
+attr source constant1(messageDiscarded)
+scalar Topologia1.node[3].g$o[1].channel messages:count 2
+attr interpolationmode none
+attr recordingmode count
+attr source constant1(messageSent)
+par Topologia1.node[5].g$o[0].channel typename "\"ned.DelayChannel\""
+par Topologia1.node[5].g$o[0].channel disabled false
+attr mutable ""
+par Topologia1.node[5].g$o[0].channel delay 0.005s
+attr mutable ""
+attr unit s
+scalar Topologia1.node[5].g$o[0].channel messagesDiscarded:count 1
+attr interpolationmode none
+attr recordingmode count
+attr source constant1(messageDiscarded)
+scalar Topologia1.node[5].g$o[0].channel messages:count 2
+attr interpolationmode none
+attr recordingmode count
+attr source constant1(messageSent)
+par Topologia1.node[4].g$o[1].channel typename "\"ned.DelayChannel\""
+par Topologia1.node[4].g$o[1].channel disabled false
+attr mutable ""
+par Topologia1.node[4].g$o[1].channel delay 0.001s
+attr mutable ""
+attr unit s
+scalar Topologia1.node[4].g$o[1].channel messagesDiscarded:count 1
+attr interpolationmode none
+attr recordingmode count
+attr source constant1(messageDiscarded)
+scalar Topologia1.node[4].g$o[1].channel messages:count 2
+attr interpolationmode none
+attr recordingmode count
+attr source constant1(messageSent)
+par Topologia1.node[5].g$o[1].channel typename "\"ned.DelayChannel\""
+par Topologia1.node[5].g$o[1].channel disabled false
+attr mutable ""
+par Topologia1.node[5].g$o[1].channel delay 0.001s
+attr mutable ""
+attr unit s
+scalar Topologia1.node[5].g$o[1].channel messagesDiscarded:count 1
+attr interpolationmode none
+attr recordingmode count
+attr source constant1(messageDiscarded)
+scalar Topologia1.node[5].g$o[1].channel messages:count 2
+attr interpolationmode none
+attr recordingmode count
+attr source constant1(messageSent)
+par Topologia1.node[5].g$o[2].channel typename "\"ned.DelayChannel\""
+par Topologia1.node[5].g$o[2].channel disabled false
+attr mutable ""
+par Topologia1.node[5].g$o[2].channel delay 0.012s
+attr mutable ""
+attr unit s
+scalar Topologia1.node[5].g$o[2].channel messagesDiscarded:count 1
+attr interpolationmode none
+attr recordingmode count
+attr source constant1(messageDiscarded)
+scalar Topologia1.node[5].g$o[2].channel messages:count 2
+attr interpolationmode none
+attr recordingmode count
+attr source constant1(messageSent)
+par Topologia1.node[6].g$o[0].channel typename "\"ned.DelayChannel\""
+par Topologia1.node[6].g$o[0].channel disabled false
+attr mutable ""
+par Topologia1.node[6].g$o[0].channel delay 0.012s
+attr mutable ""
+attr unit s
+scalar Topologia1.node[6].g$o[0].channel messagesDiscarded:count 1
+attr interpolationmode none
+attr recordingmode count
+attr source constant1(messageDiscarded)
+scalar Topologia1.node[6].g$o[0].channel messages:count 2
+attr interpolationmode none
+attr recordingmode count
+attr source constant1(messageSent)
+par Topologia1.node[0] typename "\"Node\""
+par Topologia1.node[0] totalNodes 7
+par Topologia1.node[1] typename "\"Node\""
+par Topologia1.node[1] totalNodes 7
+par Topologia1.node[2] typename "\"Node\""
+par Topologia1.node[2] totalNodes 7
+par Topologia1.node[3] typename "\"Node\""
+par Topologia1.node[3] totalNodes 7
+par Topologia1.node[4] typename "\"Node\""
+par Topologia1.node[4] totalNodes 7
+par Topologia1.node[5] typename "\"Node\""
+par Topologia1.node[5] totalNodes 7
+par Topologia1.node[6] typename "\"Node\""
+par Topologia1.node[6] totalNodes 7
+par Topologia1.monitor typename "\"Monitor\""
+par Topologia1 typename "\"Topologia1\""
+par Topologia1 totalNodes 7
+
